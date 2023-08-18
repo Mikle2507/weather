@@ -1,0 +1,1 @@
+export { AsideFormSearch } from './ui';

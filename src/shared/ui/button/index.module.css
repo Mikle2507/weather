@@ -1,0 +1,32 @@
+.btn {
+    font-family: var(--font-family-bold);
+    padding: 14px 20px 12px;
+    border-radius: 10px;
+    border: 2px solid var(--clr-hint);
+    font-size: 18px;
+    line-height: normal;
+    color: var(--theme-btn-txt-clr);
+    white-space: nowrap;
+    background-color: transparent;
+}
+
+
+button:not(:disabled) {
+    cursor: pointer;
+}
+
+.body-theme--dark .btn {
+    color: var(--clr-light);
+}
+
+
+@media (min-width: 1139px) {
+    .btn {
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .btn:not(:disabled):hover {
+        background-color: var(--theme-btn-bg-clr-hover);
+    }
+
+}

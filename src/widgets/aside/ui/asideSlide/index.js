@@ -1,0 +1,1 @@
+export { asideSlide } from './ui';

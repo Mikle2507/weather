@@ -1,0 +1,10 @@
+.flat-item-big-wrapper {
+    max-width: 100%;
+}
+
+@media (max-width: 1439.98px) {
+    .flat-item-big-list {
+        gap: 27px;
+        justify-content: center;
+    }
+}

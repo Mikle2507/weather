@@ -1,0 +1,49 @@
+:root {
+    --font-family-regular: 'rubikregular', sans-serif;
+    --font-family-bold: 'rubikbold', sans-serif;
+    --font-family-black: 'rubikblack', sans-serif;
+    --font-family-light: 'rubiklight', sans-serif;
+    --font-family-medium: 'rubikmedium', sans-serif;
+    --clr-main: #48484A;
+    --clr-hint: #ACACAC;
+    --clr-light: #FFF;
+    --clr-hint-light: #F1F1F1;
+    --clr-hint-light-sm: #D3D3D3;
+    --clr-hint-light-xs: #E6E6E6;
+    --clr-hint-light-md: #6D6D6D;
+    --clr-dark: #212331;
+    --clr-dark-lg: #100E1C;
+    --clr-accent: #EC6E4D;
+    --box-shadow-def: 0px 7px 12px 0px rgba(0, 0, 0, 0.05);
+    --box-shadow-md: 0px 7px 12px 0px rgba(0, 0, 0, 0.3);
+    --theme-element-bg-clr: var(--clr-light);
+    --theme-btn-txt-clr:  var(--clr-main);
+    --theme-btn-bg-clr-hover:  var(--clr-hint-light);
+    --theme-cross-clr: var(--clr-main);
+    --theme-input-txt-clr: var(--clr-main);
+    --theme-input-bg-clr: var(--clr-light);
+    --theme-tab-txt-clr: var(--clr-main);
+    --theme-flat-txt-clr: var(--clr-hint-light-sm);
+    --theme-flat-txt-clr--accent: var(--clr-main);
+    --theme-arr-btn-clr: var(--clr-hint);
+    --theme-arr-btn-bg-clr: var(--clr-light);
+    --theme-list-btn-bg-clr-hover:  var(--clr-hint-light-xs);
+    --theme-scrollbar-clr: var(--clr-main);
+    --theme-scrollbar-bg: var(--clr-hint-light-sm);
+}
+
+.body-theme--dark {
+    --theme-element-bg-clr:  var(--clr-dark);
+    --theme-btn-txt-clr:  var(--clr-light);
+    --theme-btn-bg-clr-hover:  var(--clr-dark-lg);
+    --theme-cross-clr: var(--clr-light);
+    --theme-input-txt-clr: var(--clr-light);
+    --theme-input-bg-clr: var(--clr-dark);
+    --theme-tab-txt-clr: var(--clr-light);
+    --theme-flat-txt-clr: var(--clr-hint-light-md);
+    --theme-flat-txt-clr--accent: var(--clr-light);
+    --theme-arr-btn-bg-clr: var(--clr-dark);
+    --theme-list-btn-bg-clr-hover:  var(--clr-dark-lg);
+    --theme-scrollbar-clr: var(--clr-hint-light-xs);
+    --theme-scrollbar-bg: var(--clr-hint-light-xs);
+}

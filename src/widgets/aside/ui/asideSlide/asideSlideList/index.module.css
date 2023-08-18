@@ -1,0 +1,42 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.btn {
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    padding: 25px 30px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 22px;
+    font-size: 18px;
+    color: var(--theme-btn-txt-clr);
+    line-height: 100%;
+    white-space: unset;
+    text-align: left;
+    word-break: break-all;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-svg {
+    flex: none;
+    width: 11px;
+    height: 15px;
+    fill: var(--clr-hint);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.btn:hover,
+.btn:focus-visible {
+    background-color: var(--theme-list-btn-bg-clr-hover);
+}
+
+.btn:hover .btn-svg,
+.btn:focus-visible .btn-svg{
+    opacity: 1;
+}

@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'rubiklight';
+    src: url('../fonts/rubik-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rubikregular';
+    src: url('../fonts/rubik-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rubikmedium';
+    src: url('../fonts/rubik-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rubikbold';
+    src: url('../fonts/rubik-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rubikblack';
+    src: url('../fonts/rubik-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

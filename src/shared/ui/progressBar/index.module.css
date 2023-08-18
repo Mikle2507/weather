@@ -1,0 +1,36 @@
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.progress-bar-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-bar-txt {
+    font-size: 12px;
+    line-height: normal;
+    font-family: var(--theme-clr-scrollbar);
+    color: var(--theme-clr-scrollbar);
+}
+
+.progress-bar-line {
+    border-radius: 10px;
+    width: 100%;
+    height: 11px;
+    background-color: var(--theme-scrollbar-bg);
+}
+
+.progress-bar-line-inner {
+    border-radius: 10px;
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    background-color: var(--clr-accent);
+}
+
+.progress-bar-bottom {
+    align-self: flex-end;
+}

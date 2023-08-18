@@ -1,0 +1,26 @@
+.field {
+    width: 100%;
+    font-family: var(--font-family-medium);
+    padding: 14px 14px 12px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: var(--theme-input-txt-clr);
+    line-height: normal;
+    border: 2px solid var(--clr-hint);
+    background: var(--theme-input-bg-clr);
+}
+
+.field--icon {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.field--icon-left {
+    padding-left: 44px;
+    background-position: 17px center;
+}
+
+.field--icon-search {
+    background-size: 18px;
+    background-image: url('./img/search.png');
+}

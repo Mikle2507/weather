@@ -1,0 +1,25 @@
+.txt-light {
+    font-family: var(--font-family-light);
+}
+
+.txt-medium {
+    font-family: var(--font-family-medium);
+}
+
+.txt-bold {
+    font-family: var(--font-family-bold);
+}
+
+.txt-black {
+    font-family: var(--font-family-black);
+}
+
+
+.simple-txt {
+    font-size: 18px;
+    line-height: normal;
+}
+
+.clr-txt-secondary {
+    color: var(--clr-hint);
+}

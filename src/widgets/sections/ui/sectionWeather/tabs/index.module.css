@@ -1,0 +1,38 @@
+.js-tab-content:not(.active) {
+    display: none;
+}
+
+.btn-border {
+    position: relative;
+    font-size: 20px;
+    line-height: 100%;
+    font-family: var(--font-family-bold);
+    color: var(--clr-hint);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-border.active {
+    color: var(--theme-tab-txt-clr);
+}
+
+.btn-border::after {
+    content: '';
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-border.active::after {
+    background-color: var(--theme-tab-txt-clr);
+}
+
+
+@media (min-width: 1139px) {
+    .btn-border:not(:disabled):hover {
+        opacity: 0.8;
+    }
+}
