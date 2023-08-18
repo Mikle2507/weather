@@ -1,3 +1,11 @@
+# Прогноз погоды
+Актуальные данные по api
+Поиск по городам
+Сохранение истории поиска до 5 городов
+Данные о погоде на день, 4 дня, 12 часов
+
+Стек: html, css, js, reactJs
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
